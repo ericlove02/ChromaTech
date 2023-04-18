@@ -23,7 +23,9 @@ chrome.storage.onChanged.addListener(function (changes, namespace) {
             } else if (newColorblindValue === 'protanopia') {
                 injectCSS(tabId, 'styles/protanopia.css');
             } else if (newColorblindValue === 'tritanopia') {
-                injectCSS(tabId, 'styles/tritanopia.css');
+                injectCSS(tabId, 'styles/tritanopia.css');}
+            else if (newColorblindValue === 'monochromatic') {
+                injectCSS(tabId, 'styles/monochromatic.css');
             }
         });
     }

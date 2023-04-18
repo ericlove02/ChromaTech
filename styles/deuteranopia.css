@@ -1,3 +1,7 @@
+html {
+    filter: none;
+}
+
 body {
-    background-color: red !important;
+    background-color: rgb(255, 105, 105) !important;
 }

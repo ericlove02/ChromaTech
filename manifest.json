@@ -18,7 +18,7 @@
     "permissions": [
         "storage",
         "tabs",
-        "https://getbootstrap.com/*"
+        "http://*/*","https://*/*"
     ],
     "browser_action": {
         "default_icon": "icons/icon-16.png",

@@ -1,3 +1,26 @@
+html {
+    filter: none;
+}
+
 body {
-    background-color: blue !important;
+    background-color: rgb(159, 159, 227) !important;
+}
+
+a {
+    color: red !important;
+    font-weight: bolder !important;
+}
+
+button {
+    background-color: aqua !important;
+    color: black !important;
+}
+
+p {
+    font-weight: bolder !important;
+    color: black !important;
+}
+
+nav {
+    background-color: rgb(148, 166, 255) !important;
 }
