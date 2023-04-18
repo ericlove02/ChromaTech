@@ -1,3 +1,4 @@
+
 // function to inject css into visting page
 function injectCSS(tabId, cssFile) {
     chrome.tabs.insertCSS(tabId, {
@@ -7,6 +8,29 @@ function injectCSS(tabId, cssFile) {
         console.log('new CSS injected into page, sheet: ' + cssFile);
     });
 }
+alert("here");
+chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+    alert("here2");
+    const tabId = tabs[0].id;
+    injectCSS(tabId, 'styles/monochromatic.css');
+});
+
+chrome.tabs.onUpdated.addListener(() => {
+    chrome.tabs.sendMessage(info.tabId, { message: 'DO_SOMETHING_MESSAGE' });
+});
+
+chrome.tabs.onActivated.addListener(() => {
+    chrome.tabs.sendMessage(info.tabId, { message: 'DO_SOMETHING_MESSAGE' });
+});
+
+// // add classes to elements on page
+
+// // if deut
+// // document . get elemenet by type . add class ( duet )
+// //      in duet.css
+// //       primary-
+// // background-color: xxx
+// // text-color: xxx
 
 // listen for changes to storage data
 chrome.storage.onChanged.addListener(function (changes, namespace) {
@@ -20,10 +44,13 @@ chrome.storage.onChanged.addListener(function (changes, namespace) {
             console.log('attempting to inject into ' + tabId);
             if (newColorblindValue === 'deuteranopia') {
                 injectCSS(tabId, 'styles/deuteranopia.css');
+                // add classes to elements
+                document.querySelectorAll("h1").forEach(item => { item.classList.add("duet-primary"); console.log("added class") });
             } else if (newColorblindValue === 'protanopia') {
                 injectCSS(tabId, 'styles/protanopia.css');
             } else if (newColorblindValue === 'tritanopia') {
-                injectCSS(tabId, 'styles/tritanopia.css');}
+                injectCSS(tabId, 'styles/tritanopia.css');
+            }
             else if (newColorblindValue === 'monochromatic') {
                 injectCSS(tabId, 'styles/monochromatic.css');
             }
