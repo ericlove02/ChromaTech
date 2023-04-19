@@ -1,1 +1,17 @@
 /* style sheet for the chrome extension itself */
+.form-select {
+    margin: 5px;
+    width: 340px !important;
+}
+
+.form-label {
+    margin-left: 5px;
+}
+
+.saved-popup {
+    color: rgb(0, 80, 0);
+    position: fixed;
+    top: 286px;
+    left: 110px;
+    font-weight: bold;
+}
