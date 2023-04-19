@@ -1,5 +1,9 @@
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    if (request.message === 'DO_SOMETHING_MESSAGE') {
+    console.log("test");
+    alert("here");
+    if (request.message === 'TAB_ACTIVATED') {
+        console.log("test2");
         // Perform desired action here
+        alert("here2");
     }
 });
