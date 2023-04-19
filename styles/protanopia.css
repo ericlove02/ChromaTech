@@ -3,6 +3,6 @@ html {
 }
 
 
-body {
-    background-color: rgb(102, 252, 102) !important;
+.pro-primary {
+    background-color: rgb(102, 252, 102);
 }
