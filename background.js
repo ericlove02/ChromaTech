@@ -40,6 +40,7 @@ window.onload = async function main() {
                 injectCSS(tabId, 'styles/monochromatic.css');
             } else {
                 chrome.tabs.sendMessage(tabId, { message: 'TAB_ACTIVATED_N' });
+                injectCSS(tabId, 'styles/none.css');
             }
         }
     });
@@ -68,6 +69,7 @@ window.onload = async function main() {
                     injectCSS(tabId, 'styles/monochromatic.css');
                 } else {
                     chrome.tabs.sendMessage(tabId, { message: 'TAB_ACTIVATED_N' });
+                    injectCSS(tabId, 'styles/none.css');
                 }
             });
         }
