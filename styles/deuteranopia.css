@@ -3,5 +3,29 @@ html {
 }
 
 .duet-primary {
-    background-color: rgb(255, 105, 105);
+    background-color: rgb(15, 50, 155);
+    color: rgb(235, 255, 57);
+    font-weight: bolder;
 }
+
+.duet-body {
+    background-color: rgb(155, 180, 255);
+    color: rgb(235, 255, 57);
+}
+
+.duet-link {
+    color: rgb(255, 209, 23);
+    font-weight: bolder;
+}
+
+.duet-nav {
+    background-color: rgb(15, 50, 155);
+    color: rgb(235, 255, 57);
+}
+
+.duet-button {
+    background-color: rgb(15, 50, 155);
+    color: rgb(235, 255, 57);
+}
+
+
