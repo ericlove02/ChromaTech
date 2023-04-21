@@ -5,6 +5,13 @@ html {
 .tri-primary {
     background-color: aqua !important;
     color: black !important;
+    font-weight: bold;
+}
+
+.tri-secondary {
+    background-color: aqua !important;
+    color: black !important;
+    text-decoration: underline;
     font-weight: bolder;
 }
 

@@ -5,6 +5,12 @@ html {
 .duet-primary {
     background-color: rgb(15, 50, 155) !important;
     color: rgb(235, 255, 57) !important;
+    font-weight: bold;
+}
+
+.duet-secondary {
+    background-color: rgb(15, 50, 155) !important;
+    color: rgb(255, 209, 23) !important;
     font-weight: bolder;
 }
 
