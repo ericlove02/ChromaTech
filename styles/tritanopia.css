@@ -3,28 +3,27 @@ html {
 }
 
 .tri-primary {
-    background-color: rgb(159, 159, 227);
-}
-
-/* body {
-    background-color: rgb(159, 159, 227) !important;
-}
-
-a {
-    color: red !important;
-    font-weight: bolder !important;
-}
-
-button {
     background-color: aqua !important;
     color: black !important;
+    font-weight: bolder;
 }
 
-p {
-    font-weight: bolder !important;
-    color: black !important;
+.tri-body {
+    background-color: rgb(148, 166, 255);
+    color: black;
 }
 
-nav {
-    background-color: rgb(148, 166, 255) !important;
-} */
+.tri-link {
+    color: black;
+    font-weight: bolder;
+}
+
+.tri-nav {
+    background-color: rgb(159, 159, 227);
+    color: black;
+}
+
+.tri-button {
+    background-color: rgb(148, 166, 255);
+    color: black;
+}
