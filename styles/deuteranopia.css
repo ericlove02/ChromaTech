@@ -8,6 +8,11 @@ html {
     font-weight: bolder;
 }
 
+.duet-div {
+    background-color: rgba(155, 180, 255, .3);
+    color: rgb(255, 209, 23);
+}
+
 .duet-body {
     background-color: rgb(155, 180, 255);
     color: rgb(235, 255, 57);

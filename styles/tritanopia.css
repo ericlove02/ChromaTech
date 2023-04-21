@@ -8,6 +8,11 @@ html {
     font-weight: bolder;
 }
 
+.tri-div {
+    background-color: rgba(159, 159, 227, .3);
+    color: black;
+}
+
 .tri-body {
     background-color: rgb(148, 166, 255);
     color: black;

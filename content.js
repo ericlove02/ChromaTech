@@ -10,6 +10,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         document.querySelectorAll("h6").forEach(item => { item.classList.add("duet-primary") });
         document.querySelectorAll("p").forEach(item => { item.classList.add("duet-primary") });
         document.querySelectorAll("span").forEach(item => { item.classList.add("duet-primary") });
+        document.querySelectorAll("div:not(:has(div))").forEach(item => { item.classList.add("duet-div") });
         document.querySelectorAll("a").forEach(item => { item.classList.add("duet-link") });
         document.querySelectorAll("body").forEach(item => { item.classList.add("duet-body") });
 
@@ -23,6 +24,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         document.querySelectorAll("h6").forEach(item => { item.classList.add("pro-primary") });
         document.querySelectorAll("p").forEach(item => { item.classList.add("pro-primary") });
         document.querySelectorAll("span").forEach(item => { item.classList.add("pro-primary") });
+        document.querySelectorAll("div:not(:has(div))").forEach(item => { item.classList.add("pro-div") });
         document.querySelectorAll("a").forEach(item => { item.classList.add("pro-link") });
         document.querySelectorAll("body").forEach(item => { item.classList.add("pro-body") });
 
@@ -36,6 +38,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         document.querySelectorAll("h6").forEach(item => { item.classList.add("tri-primary") });
         document.querySelectorAll("p").forEach(item => { item.classList.add("tri-primary") });
         document.querySelectorAll("span").forEach(item => { item.classList.add("tri-primary") });
+        document.querySelectorAll("div:not(:has(div))").forEach(item => { item.classList.add("tri-div") });
         document.querySelectorAll("a").forEach(item => { item.classList.add("tri-link") });
         document.querySelectorAll("body").forEach(item => { item.classList.add("tri-body") });
 
@@ -49,6 +52,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         document.querySelectorAll("h6").forEach(item => { item.classList.remove("duet-primary", "pro-primary", "tri-primary") });
         document.querySelectorAll("p").forEach(item => { item.classList.remove("duet-primary", "pro-primary", "tri-primary") });
         document.querySelectorAll("span").forEach(item => { item.classList.remove("duet-primary", "pro-primary", "tri-primary") });
+        document.querySelectorAll("div:not(:has(div))").forEach(item => { item.classList.remove("duet-div", "pro-div", "tri-div") });
         document.querySelectorAll("a").forEach(item => { item.classList.remove("duet-link", "pro-link", "tri-link") });
         document.querySelectorAll("body").forEach(item => { item.classList.remove("duet-body", "pro-body", "tri-body") });
 

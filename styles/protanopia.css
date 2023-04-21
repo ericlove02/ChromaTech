@@ -4,8 +4,13 @@ html {
 
 .pro-primary {
     background-color: rgb(235, 255, 57);
-    color: rgb(15, 50, 155); ;
+    color: rgb(15, 50, 155);
     font-weight: 500;
+}
+
+.pro-div {
+    background-color: rgba(235, 255, 57, .3);
+    color: rgb(15, 50, 155);
 }
 
 .pro-body {
@@ -15,4 +20,14 @@ html {
 .pro-link {
     color: rgb(86, 170, 255);
     font-weight: 800;
+}
+
+.pro-nav {
+    background-color: rgb(15, 50, 155);
+    color: rgb(235, 255, 57);
+}
+
+.pro-button {
+    background-color: rgb(15, 50, 155);
+    color: rgb(235, 255, 57);
 }
