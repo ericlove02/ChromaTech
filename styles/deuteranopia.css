@@ -25,7 +25,7 @@ html {
 }
 
 .duet-link {
-    color: rgb(255, 209, 23);
+    color: rgb(255, 209, 23) !important;
     font-weight: bolder;
 }
 

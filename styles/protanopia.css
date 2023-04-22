@@ -24,7 +24,7 @@ html {
 }
 
 .pro-link {
-    color: rgb(86, 170, 255);
+    color: rgb(86, 170, 255) !important;
     font-weight: 800;
 }
 
