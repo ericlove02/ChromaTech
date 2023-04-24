@@ -3,20 +3,20 @@ html {
 }
 
 .pro-primary {
-    background-color: rgb(235, 255, 57) !important;
+    /* background-color: rgb(235, 255, 57) !important; */
     color: rgb(15, 50, 155) !important;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .pro-secondary {
-    background-color: rgb(235, 255, 57) !important;
+    /* background-color: rgb(235, 255, 57) !important; */
     color: rgb(86, 170, 255) !important;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 .pro-div {
     background-color: rgba(235, 255, 57, .3);
-    color: rgb(15, 50, 155);
+    /* color: rgb(15, 50, 155); */
 }
 
 .pro-body {
@@ -25,7 +25,8 @@ html {
 
 .pro-link {
     color: rgb(86, 170, 255) !important;
-    font-weight: 800;
+    /* font-weight: 800; */
+    text-decoration: underline;
 }
 
 .pro-nav {

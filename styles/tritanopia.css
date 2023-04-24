@@ -3,31 +3,32 @@ html {
 }
 
 .tri-primary {
-    background-color: aqua !important;
+    /* background-color: aqua !important; */
     color: black !important;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .tri-secondary {
-    background-color: aqua !important;
+    /* background-color: aqua !important; */
     color: black !important;
-    text-decoration: underline;
-    font-weight: bolder;
+    /* text-decoration: underline; */
+    /* font-weight: bolder; */
 }
 
 .tri-div {
     background-color: rgba(159, 159, 227, .3);
-    color: black;
+    /* color: black; */
 }
 
 .tri-body {
     background-color: rgb(148, 166, 255);
-    color: black;
+    /* color: black; */
 }
 
 .tri-link {
     color: black !important;
-    font-weight: bolder;
+    /* font-weight: bolder; */
+    text-decoration: underline;
 }
 
 .tri-nav {

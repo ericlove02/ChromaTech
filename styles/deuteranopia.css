@@ -3,15 +3,15 @@ html {
 }
 
 .duet-primary {
-    background-color: rgb(15, 50, 155) !important;
+    /* background-color: rgb(15, 50, 155) !important; */
     color: rgb(235, 255, 57) !important;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .duet-secondary {
-    background-color: rgb(15, 50, 155) !important;
+    /* background-color: rgb(15, 50, 155) !important; */
     color: rgb(255, 209, 23) !important;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 .duet-div {
@@ -21,12 +21,13 @@ html {
 
 .duet-body {
     background-color: rgb(155, 180, 255);
-    color: rgb(235, 255, 57);
+    /* color: rgb(235, 255, 57); */
 }
 
 .duet-link {
     color: rgb(255, 209, 23) !important;
-    font-weight: bolder;
+    /* font-weight: bolder; */
+    text-decoration: underline;
 }
 
 .duet-nav {
