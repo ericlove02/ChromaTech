@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "crx3": "^1.1.3"
   }
 }
