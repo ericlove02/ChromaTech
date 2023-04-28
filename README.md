@@ -1,5 +1,7 @@
 # ChromaTech
 
+https://user-images.githubusercontent.com/53005525/235258926-d86a7a3a-87e2-4b16-ad5d-dd978cdabb52.mp4
+
 ### Instructions 
 To install the extension, download the zip file, extract it, then visit the chrome://extensions page. Turn on developer mode in the top right and select unpack extension. Select the folder you just extracted to. ChromaTech will now appear in your browser!
 
